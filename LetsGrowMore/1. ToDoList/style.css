@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+  height: 100vh;
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(45deg, #088178 50%, #F2F2F2 50%);
+  min-height: 1000px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Spartan', sans-serif;
+  width: 100%;
+}
+h1{
+  color: #088178;
+}
+.container{
+  max-width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #088178;
+  padding: 30px;
+  background-color: #fafafa;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+}
+.input-field{
+  text-align: center;
+  border-radius: 5px;
+}
+input[type="text"]{
+  color: #fff;
+  /* border: none; */
+  border-radius:5px;
+  background-color: #f3f9ff;
+  max-width: 400px;
+  
+}
+.todos li{
+  background-color: #fff;
+  color: #000;
+  font-weight: 600;
+  font-family: 'Spartan', sans-serif;
+}
+.delete{
+  cursor: pointer;
+  color: #000;
+  font-size: 20px;
+}
+.delete:hover{
+  color: #088178;
+  transition: 0.3 ease;
+}
+button.normal{
+  width: 15%;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  background-color: #08817938;
+  cursor: pointer;
+  border: 1px solid #000;
+  outline: none;
+  transition: 0.2s;
+  border-radius: 4px;
+}
+button.normal:hover{
+  color: #088178;
+  transition: 0.3s ease;
+}
